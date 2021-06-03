@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src = 'js/app.js' defer></script>
+    <link rel = 'stylesheet' href = 'css/style.css' >
+</head>
+<body>
+    <div class="container">
+        {{>header}}
+
+        <form>
+        <input placeholder='location'>
+        <button>Search</button>
+
+        </form>
+
+        <section class = 'report'>
+            <div class='container'>
+                <section class = 'sub'>
+                    <h2 id="country"></h2>
+                    <img>
+                </section>
+                <section>
+                    <p id="temp"></p>
+                    <p id="weather_des"></p>
+                </section>
+            </div>
+        </section>
+    </div>  
+</body>
+</html>
