@@ -1,4 +1,4 @@
-
+console.log('javascript')
 const weatherForm = document.querySelector('form')
 const inputSearch = document.querySelector('input')
 const weatherImage = document.querySelector('.container img')
